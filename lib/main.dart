@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:newzz/app/data/services/news_service.dart';
+import 'package:newzz/app/ui/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: NewsApp());
+    return MaterialApp(home: HomeScreen());
   }
 }
